@@ -1,0 +1,54 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(164, 181, 246);
+    color: white;
+    width: 100vw;
+    text-align: center;
+    margin: 0;
+    }
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px; 
+    color: black;       
+    }
+
+.estilo-tabela{
+    background-color: rgb(0, 114, 116);
+     width: 100%; 
+     min-width: 1200px;
+     margin: 0 auto 1.25rem auto;
+     padding: 0.25rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 3px solid black;
+    }
+
+.classificações{
+     font-weight: bold;
+     font-size: 18px;
+     background-color: rgba(164, 181, 246);
+     color: rgb(0, 0, 0);
+}
+
+td, th {
+     text-align: center;
+     padding: 20px; 
+     border: 1px solid rgb(1, 70, 71);
+
+}   
+
+th {
+     background-color: rgba(164, 181, 246);
+     color: rgb(0, 0, 0);
+     font-size: 18px;
+}
